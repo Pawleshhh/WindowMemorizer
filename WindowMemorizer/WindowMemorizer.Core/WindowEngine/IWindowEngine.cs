@@ -2,10 +2,7 @@
 {
     public interface IWindowEngine
     {
-
-        void MoveWindow(nint id, int x, int y);
-
-        void ResizeWindow(nint id, double width, double height);
+        void MoveWindow(nint id, int x, int y, int width, int height);
 
         nint GetSelectedWindow();
 

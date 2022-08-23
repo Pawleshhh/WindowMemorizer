@@ -5,10 +5,10 @@ namespace WindowMemorizer.Core
     public readonly struct Point : IEquatable<Point>
     {
 
-        public double X { get; }
-        public double Y { get; }
+        public int X { get; }
+        public int Y { get; }
 
-        public Point(double x, double y)
+        public Point(int x, int y)
         {
             X = x;
             Y = y;
